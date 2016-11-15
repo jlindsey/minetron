@@ -4,6 +4,61 @@
     "author": {
         "name": "Joshua Lindsey",
         "email": "joshua.s.lindsey@gmail.com"
+    },
+    "scripts": {
+        "lint": "eslint --ignore-path .gitignore --format=node_modules/eslint-formatter-pretty app test *.js",
+        "postinstall": "install-app-deps"
+    },
+    "build": {
+        "appId": "com.github.jlindsey.minetron"
+    },
+    "devDependencies": {
+        "asar": "^0.12.3",
+        "babel-core": "^6.18.0",
+        "babel-eslint": "^7.1.0",
+        "babel-loader": "^6.2.7",
+        "babel-plugin-add-module-exports": "^0.2.1",
+        "babel-plugin-dev-expression": "^0.2.1",
+        "babel-plugin-tcomb": "^0.3.21",
+        "babel-plugin-webpack-loaders": "^0.8.0",
+        "babel-polyfill": "^6.16.0",
+        "babel-preset-es2015": "^6.18.0",
+        "babel-preset-react": "^6.16.0",
+        "babel-preset-react-hmre": "^1.1.1",
+        "babel-preset-react-optimize": "^1.0.1",
+        "babel-preset-stage-0": "^6.16.0",
+        "babel-register": "^6.18.0",
+        "css-loader": "^0.25.0",
+        "devtron": "^1.4.0",
+        "electron": "^1.4.4",
+        "electron-builder": "^7.18.0",
+        "electron-devtools-installer": "^2.0.1",
+        "eslint": "^3.9.1",
+        "eslint-config-airbnb": "^12.0.0",
+        "eslint-formatter-pretty": "^1.1.0",
+        "eslint-import-resolver-webpack": "^0.6.0",
+        "eslint-loader": "^1.6.0",
+        "eslint-plugin-flowtype-errors": "^1.5.0",
+        "eslint-plugin-import": "^1.16.0",
+        "eslint-plugin-jsx-a11y": "^2.2.3",
+        "eslint-plugin-promise": "^3.3.0",
+        "eslint-plugin-react": "^6.4.1",
+        "express": "^4.14.0",
+        "extract-text-webpack-plugin": "^1.0.1",
+        "file-loader": "^0.9.0",
+        "html-webpack-plugin": "^2.24.1",
+        "json-loader": "^0.5.4",
+        "node-sass": "^3.10.1",
+        "sass-loader": "^4.0.2",
+        "stats-webpack-plugin": "^0.4.2",
+        "style-loader": "^0.13.1",
+        "tcomb": "^3.2.15",
+        "url-loader": "^0.5.7",
+        "webpack": "^1.13.3",
+        "webpack-dev-middleware": "^1.8.4",
+        "webpack-hot-middleware": "^2.13.1",
+        "webpack-merge": "^0.15.0",
+        "webpack-validator": "^2.2.9"
     }
 }
 
